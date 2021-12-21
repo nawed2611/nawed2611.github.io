@@ -81,7 +81,7 @@ nav {
     animation: shadow-drop-2-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-nav svg {
+.burger{
     display: none;
     cursor: pointer;
 }
@@ -191,8 +191,11 @@ p {
         opacity: 0;
     }
 
-    nav svg {
+    .burger{
         display: block;
     }
-    
+    .nav-active{
+    transform: translateX(0%);
+    }
+        
 }
