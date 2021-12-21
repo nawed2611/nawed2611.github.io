@@ -215,8 +215,8 @@ p {
     position: absolute;
     border-radius: 50%;
     z-index: 1;
-    -webkit-animation: shake-vertical 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-	        animation: shake-vertical 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    -webkit-animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
 .circle1 {
