@@ -10,6 +10,45 @@ body {
 
 }
 
+.intro {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    color: white;
+    font-size: 2.5em;
+}
+
+.slider {
+    background: rgb(45, 47, 49);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transform: translateY(100%);
+}
+
+.hide {
+    background-color: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
 nav {
     background-color: black;
     font-size: 1.5rem;
@@ -81,7 +120,7 @@ nav {
     animation: shadow-drop-2-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.burger{
+.burger {
     display: none;
     cursor: pointer;
 }
@@ -104,7 +143,7 @@ main {
     backdrop-filter: blur(2rem);
     z-index: 2;
     -webkit-animation: shake-vertical 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-	        animation: shake-vertical 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
 .user {
@@ -149,62 +188,73 @@ p {
 }
 
 @-webkit-keyframes shake-vertical {
+
     0%,
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
+
     10%,
     30%,
     50%,
     70% {
-      -webkit-transform: translateY(-8px);
-              transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
     }
+
     20%,
     40%,
     60% {
-      -webkit-transform: translateY(8px);
-              transform: translateY(8px);
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
     }
+
     80% {
-      -webkit-transform: translateY(6.4px);
-              transform: translateY(6.4px);
+        -webkit-transform: translateY(6.4px);
+        transform: translateY(6.4px);
     }
+
     90% {
-      -webkit-transform: translateY(-6.4px);
-              transform: translateY(-6.4px);
+        -webkit-transform: translateY(-6.4px);
+        transform: translateY(-6.4px);
     }
-  }
-  @keyframes shake-vertical {
+}
+
+@keyframes shake-vertical {
+
     0%,
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
+
     10%,
     30%,
     50%,
     70% {
-      -webkit-transform: translateY(-8px);
-              transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
     }
+
     20%,
     40%,
     60% {
-      -webkit-transform: translateY(8px);
-              transform: translateY(8px);
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
     }
+
     80% {
-      -webkit-transform: translateY(6.4px);
-              transform: translateY(6.4px);
+        -webkit-transform: translateY(6.4px);
+        transform: translateY(6.4px);
     }
+
     90% {
-      -webkit-transform: translateY(-6.4px);
-              transform: translateY(-6.4px);
+        -webkit-transform: translateY(-6.4px);
+        transform: translateY(-6.4px);
     }
-  }
-  
+}
+
 
 .circle1,
 .circle2 {
@@ -216,7 +266,7 @@ p {
     border-radius: 50%;
     z-index: 1;
     -webkit-animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-	        animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
 .circle1 {
@@ -253,8 +303,8 @@ p {
         opacity: 0;
     }
 
-    .burger{
+    .burger {
         display: block;
     }
-        
+
 }
