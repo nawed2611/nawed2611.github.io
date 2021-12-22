@@ -391,12 +391,12 @@ p {
     background-color: #3977d4;
     border: 2px solid black;
     border-radius: 6px;
-    top: 120%;
+    top: 130%;
 }
 
 .actions{
     position: absolute;
-    top: 152%;
+    top: 162%;
     left: 41%;
 }
 
