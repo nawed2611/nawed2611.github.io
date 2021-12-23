@@ -6,9 +6,6 @@
 
 body {
     font-family: 'Belleza', sans-serif;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-
 }
 
 .intro {
@@ -135,7 +132,7 @@ main {
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right top, #d7f6f0, #6cdbeb);
-    scroll-snap-align: start;
+    
 }
 
 .glass {
@@ -149,6 +146,7 @@ main {
     z-index: 2;
     -webkit-animation: shake-vertical 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
     animation: shake-vertical 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    border: 1px dotted black;
 }
 
 .user {
@@ -365,7 +363,7 @@ p {
     background-color: #c6d9f8;
     background-image: linear-gradient(120deg, #d6e3f7 0%, #f3d6f7 100%);
     min-height: 100vh;
-    scroll-snap-align: start;
+   
     padding-top: 2rem;
 }
 
@@ -375,7 +373,6 @@ p {
 }
 
 #langList{
-    list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -383,27 +380,26 @@ p {
 }
 
 #langList li{
-    position: absolute;
+    list-style: none;
     margin: 0.8rem;
     width: 15rem;
     padding: 5rem;
     text-align: center;
     background-color: #3977d4;
     border: 2px solid black;
-    border-radius: 6px;
-    top: 130%;
+    border-radius: 0.8rem;
 }
 
 .actions{
-    position: absolute;
-    top: 162%;
-    left: 41%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn{
     margin: 1rem;
-    padding: 1rem;
-    width: 5rem;
+    padding: 0.5rem;
+    width: 4rem;
     font-size: 1rem;
     border: 1px solid black;
     border-radius: 4px;
