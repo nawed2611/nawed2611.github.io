@@ -219,6 +219,8 @@ p {
     left: 0;
     inset: 0 0 0 0;
     background: hsl(200 100% 80%);
+    border: 1px dotted black;
+    border-radius: 2rem;
     z-index: -1;
     transition: transform .3s ease;
 }
@@ -374,35 +376,19 @@ p {
 
 #langList{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(202, 224, 235);
 }
 
 #langList li{
     list-style: none;
     margin: 0.8rem;
-    width: 15rem;
-    padding: 5rem;
+    width: 14rem;
+    padding: 3.5rem;
     text-align: center;
     background-color: #3977d4;
     border: 2px solid black;
     border-radius: 0.8rem;
 }
-
-.actions{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn{
-    margin: 1rem;
-    padding: 0.5rem;
-    width: 4rem;
-    font-size: 1rem;
-    border: 1px solid black;
-    border-radius: 4px;
-
-}
-
