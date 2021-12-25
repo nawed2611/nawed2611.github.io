@@ -132,7 +132,7 @@ main {
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right top, #d7f6f0, #6cdbeb);
-    
+
 }
 
 .glass {
@@ -199,6 +199,7 @@ p {
     padding: 1rem;
     font-size: 1.2rem;
 }
+
 .about-me h1::before {
     transform: scaleX(0);
     transform-origin: bottom right;
@@ -300,7 +301,8 @@ p {
 
 
 .circle1,
-.circle2, .circle3 {
+.circle2,
+.circle3 {
     background: white;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
     height: 9rem;
@@ -321,7 +323,8 @@ p {
     bottom: -12%;
     left: 11%;
 }
-.circle3{
+
+.circle3 {
     left: 2%;
     top: 20%;
     height: 5rem;
@@ -365,16 +368,17 @@ p {
     background-color: #c6d9f8;
     background-image: linear-gradient(120deg, #d6e3f7 0%, #f3d6f7 100%);
     min-height: 100vh;
-   
     padding-top: 2rem;
 }
 
-.lang h2{
+.lang h2,
+.edu h2,
+.proj-and-intern h2 {
     font-size: 2rem;
     margin: 1rem;
 }
 
-#langList{
+#langList {
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -382,7 +386,7 @@ p {
     color: rgb(202, 224, 235);
 }
 
-#langList li{
+#langList li {
     list-style: none;
     margin: 0.8rem;
     width: 14rem;
@@ -391,4 +395,24 @@ p {
     background-color: #3977d4;
     border: 2px solid black;
     border-radius: 0.8rem;
+}
+
+.edu {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    background-color: #FAACA8;
+    background-image: linear-gradient(0deg, #e5e3ec 0%, #e0f0df  100%);
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+.proj-and-intern {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    background-color: #c6d9f8;
+    background-image: linear-gradient(120deg, #d6e3f7 0%, #f3d6f7 100%);
+    min-height: 100vh;
+    padding-top: 2rem;
 }
