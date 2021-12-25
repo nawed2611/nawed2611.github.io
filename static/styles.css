@@ -401,8 +401,7 @@ p {
     display: flex;
     padding: 2rem;
     flex-direction: column;
-    background-color: #FAACA8;
-    background-image: linear-gradient(0deg, #e5e3ec 0%, #e0f0df  100%);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     min-height: 100vh;
     padding-top: 2rem;
 }
@@ -411,8 +410,16 @@ p {
     display: flex;
     padding: 2rem;
     flex-direction: column;
-    background-color: #c6d9f8;
-    background-image: linear-gradient(120deg, #d6e3f7 0%, #f3d6f7 100%);
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%); 
     min-height: 100vh;
     padding-top: 2rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
