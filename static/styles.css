@@ -115,9 +115,10 @@ nav {
 }
 
 .nav-links a:hover {
-    color: white;
+    color: rgb(228, 222, 222);
     -webkit-animation: shadow-drop-2-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: shadow-drop-2-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    text-decoration: underline;
 
 }
 
@@ -420,6 +421,15 @@ footer{
     color: white;
     min-height: 10vh;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 1rem;
+}
+footer p{
+    margin: 1rem;
+}
+.copyright{
+    display: flex;
+}
+.copyright svg{
+    margin: auto;
 }
