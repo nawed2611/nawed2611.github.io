@@ -198,39 +198,9 @@ p {
     flex-direction: column;
     margin: 2rem;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
-.about-me h1::before {
-    transform: scaleX(0);
-    transform-origin: bottom right;
-}
-
-.about-me h1:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-.about-me h1::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    inset: 0 0 0 0;
-    background: hsl(200 100% 80%);
-    border: 1px dotted black;
-    border-radius: 2rem;
-    z-index: -1;
-    transition: transform .3s ease;
-}
-
-.about-me h1 {
-    font-size: 2rem;
-    margin-bottom: 5rem;
-}
 
 @-webkit-keyframes shake-vertical {
 
