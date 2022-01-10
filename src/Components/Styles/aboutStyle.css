@@ -1,0 +1,67 @@
+.about{
+    padding: 2rem;
+    background-color: #223f48;
+}
+.aboutDiv{
+    background-color: #7d88a8;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    line-height: 250%;
+    margin-bottom: 1rem;
+    min-height: 100vh;
+    border-radius: 2rem 1rem;
+}
+
+.helloText{
+    margin: 1rem;
+    color: rgb(65 70 85);
+}
+
+.aboutText{
+    display: flex;
+    width: 40%;
+    color: rgb(213, 217, 224);
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    
+}
+
+.aboutText h2{
+    padding: 2rem;
+    background-color: #4e566f80;
+    border: 2px solid rgb(199 205 228);
+    border-radius: 1rem 3rem;
+    color: rgb(233, 230, 230);
+    box-shadow: 4px 4px 20px 0 rgb(0 0 0 / 39%);
+}
+
+.langDiv {
+    color: #474e55;
+    padding: 1rem;
+    min-height: 100vh;
+    background-color: #7d88a8;
+    border-radius: 1rem 2rem;
+}
+
+.langText {
+    padding: 0.5rem;
+    font-size: 3rem;
+}
+
+.langList {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 75%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 2rem;
+    color:#dde6d2;
+}

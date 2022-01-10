@@ -1,0 +1,38 @@
+.projects{
+    padding: 2rem;
+    background-color: #223f48;
+}
+
+.projDiv{
+    background-color: #faedbc;
+    display: flex;
+    color: #e29c2b;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 1.5rem;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    border-radius: 1rem 2rem;
+}
+.projList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.projList li{
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background-color: #8da763;
+    box-shadow: 4px 4px 20px 0 rgb(0 0 0 / 39%);
+    
+}
