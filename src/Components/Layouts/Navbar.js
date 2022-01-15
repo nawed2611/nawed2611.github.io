@@ -1,5 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../Styles/navbarStyle.css';
+
+import {Link} from 'react-scroll';
 
 function Navbar(){
     return(
@@ -9,12 +11,15 @@ function Navbar(){
             </div>
 
             <ul className="navLinks">
-                <li className="aboutLink">About</li>
+                <li><Link to="about" spy={true} smooth={true}>About</Link></li>
                 <p>,</p>
-                <li className="projectLink">Projects</li>
+                <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+                <p>,</p>
+                <li><Link to="footer" spy={true} smooth={true}>Contact Me</Link></li>
             </ul>
         </div>
     );
 }
 
 export default Navbar;
+
