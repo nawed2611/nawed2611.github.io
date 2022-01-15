@@ -6,7 +6,7 @@ function About() {
         <div className="about">
             <div className="aboutDiv">
                 <div className="aboutText">
-                    <h2>I'm a MERN-Stack Developer and a sophomore Computer Science Engineering student, from New Delhi, India. I like to learn new technology and stay up-to date with the technology advancements and trends.</h2>
+                    <h2>I'm currently a sophomore pursuing BTech Computer Science and Engineering</h2>
                 </div>
             </div>
 
