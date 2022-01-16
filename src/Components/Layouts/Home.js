@@ -7,9 +7,8 @@ function Home() {
     return (
         <div className="headerDiv">
             <div className="headerText">
-                <h1>Hi, I'm Nawed Ali</h1>
-                <h5>MERN Stack Developer Based in New Delhi, India</h5>
-                
+                <h1>Hi, I'm NAWED ALI.</h1>
+                <h5>MERN Stack Developer Based in New Delhi, India</h5>    
             </div>
             <div className="profDiv">
                     <img src={Nawed} />

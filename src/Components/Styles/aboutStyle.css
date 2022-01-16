@@ -35,15 +35,13 @@
     padding: 2rem;
     background-color: #4e566f80;
     border: 2px solid rgb(199 205 228);
-    border-radius: 1rem 3rem;
+    border-radius: 1rem 2rem;
     color: rgb(233, 230, 230);
     box-shadow: 4px 4px 20px 0 rgb(0 0 0 / 39%);
     backdrop-filter: blur(12px);
 }
 
 .aboutText h2:hover{
-    -webkit-animation: shadow-pop-bl 0.3s ease-in both;
-            animation: shadow-pop-bl 0.3s ease-in both;
     color: #dde6d2;
     
 }
