@@ -13,24 +13,47 @@ body {
 }
 
 .headerText {
+  border-right: 1px solid black;
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
   width: 45%;
-  border-right: 1px solid black;
 }
 
 .headerText h1,
 h5 {
-  margin: 1rem 0 0 0;
   color: rgb(70, 66, 66);
   z-index: 10;
   backdrop-filter: blur(6px);  
 }
 
-/* .headerText h5{
-  box-shadow: -2px 2px 10px 0 rgb(0 0 0 / 39%);
-} */
+.animatep{
+  font-weight: bold;
+  color: rgb(70, 66, 66);
+  font-size: 1.5rem;
+  overflow: hidden;
+  height: 40px;
+}
+
+.titleId{
+  margin-left: 1rem;
+  height: 50px;
+
+}
+
+.titleWrapper {
+  animation: move 5s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  50%{
+    transform: translateY(-40px);
+  }
+  100%{
+
+    transform: translateY(-90px);
+  }
+}
 
 .headerText h1::before {  
   transform: scaleX(0);
