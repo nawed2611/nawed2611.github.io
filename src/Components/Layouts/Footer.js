@@ -17,7 +17,7 @@ function Footer(){
             <div className="socials">
             <p>COPYRIGHT © 2021 ALL RIGHTS RESERVED</p> <p>CODED WITH ♡ BY NAWED ALI</p>
             <div className="socialLinks">
-                <a href="#" target="_blank">RESUME</a>
+                <a href="#" target="_blank">MY RESUME</a>
                 <a href="https://www.instagram.com/nawed.alli/" target="_blank"><img src={Instagram}/></a>
                 <a href="https://www.linkedin.com/in/nawedali/" target="_blank"><img src={LinkedIn}/></a>
                 <a href="https://github.com/nawed2611" target="_blank"><img src={Github}/></a>

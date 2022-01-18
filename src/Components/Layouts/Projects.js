@@ -1,10 +1,14 @@
 import React from 'react';
 import '../Styles/projStyle.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
 
 function Projects() {
     return (
         <div className="projects">
-            <div className="projDiv">
+            <div data-aos="fade-up" className="projDiv">
                 <h1>Projects and Internships I've done</h1>
             </div>
         </div>

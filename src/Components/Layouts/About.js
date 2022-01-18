@@ -1,16 +1,20 @@
 import React from 'react';
 import '../Styles/aboutStyle.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
 
 function About() {
     return (
         <div className="about">
-            <div className="aboutDiv">
-                <div className="aboutText">
+            <div data-aos="fade-up" className="aboutDiv">
+                <div data-aos="fade-up" className="aboutText">
                     <h2>I'm currently a sophomore pursuing BTech Computer Science and Engineering</h2>
                 </div>
             </div>
 
-            <div className="langDiv">
+            <div data-aos="fade-up" className="langDiv">
                 <h1 className="langText">Languages I'm fluent with</h1>
                 <ul className="langList">
                     <li>C</li>
