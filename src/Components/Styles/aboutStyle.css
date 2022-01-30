@@ -7,35 +7,32 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    line-height: 250%;
     margin-bottom: 1rem;
     min-height: 100vh;
     border-radius: 2rem 1rem;
 }
 
 .helloText{
-    margin: 1rem;
     color: rgb(65 70 85);
 }
 
 .aboutText{
     display: flex;
-    width: 40%;
+    width: 30%;
     color: rgb(213, 217, 224);
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    margin: 2rem;
-    font-size: 1.4rem;
+    margin: 1rem;
+    font-size: 1.2rem;
     flex-wrap: wrap;
-    text-transform: uppercase;
 }
 
 .aboutText h2{
     padding: 2rem;
     background-color: #4e566f80;
     border: 2px solid rgb(199 205 228);
-    border-radius: 1rem 2rem;
+    border-radius: 1rem 1.2rem;
     color: rgb(233, 230, 230);
     box-shadow: 4px 4px 20px 0 rgb(0 0 0 / 39%);
     backdrop-filter: blur(12px);

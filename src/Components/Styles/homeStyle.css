@@ -42,7 +42,7 @@ h5 {
 }
 
 .titleWrapper {
-  animation: move 5s ease-in-out infinite alternate;
+  animation: move 8s ease-in-out infinite alternate;
 }
 
 @keyframes move {
@@ -87,7 +87,7 @@ h5 {
 .headerText h5{
   border-right: 3px solid;
   font-size: 1.5rem;
-  padding: 1.2rem;
+  padding: 1rem;
   border-radius: 1rem;
   width: 70%;
 }
@@ -95,10 +95,12 @@ h5 {
 .profDiv {
   display: flex;
   justify-content: flex-end;
-  padding: 1.5rem;
-  margin: 1.5rem;
+  padding: 3rem;
+  margin: 1rem;
   backdrop-filter: blur(3px);
   overflow: hidden;
+  background-color: #7d88a8;
+  border-radius: 10rem 5rem 7rem;
 }
 
 @-webkit-keyframes shake-vertical {
@@ -162,13 +164,6 @@ h5 {
 .profDiv img {
   width: 18rem;
   height: 18rem;
-  object-fit: cover;
-  border: 2px solid rgb(128, 141, 140);
-  border-radius: 1rem;
-  transition: all 1s;
-  box-shadow: 4px 4px 20px 0 rgb(0 0 0 / 39%);
-}
-.profDiv img:hover{
-  width: 25rem;
-  height: 18rem;
+  object-fit: contain;
+  border-radius: 2rem;
 }

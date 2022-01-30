@@ -9,8 +9,16 @@ function About() {
     return (
         <div className="about">
             <div data-aos="fade-up" className="aboutDiv">
-                <div data-aos="fade-up" className="aboutText">
-                    <h2>I'm currently a sophomore pursuing BTech Computer Science and Engineering</h2>
+
+                <div data-aos="fade-up" data-aos-delay="200" className="aboutText">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatum, vero veniam quo et saepe voluptatibus corrupti necessitatibus. Nulla, beatae facilis?</h2>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="400" className="aboutText">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque modi, repellat dignissimos sed perferendis, debitis mollitia voluptatem provident quod ab aliquid?</h2>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="600" className="aboutText">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa molestiae ipsam magni autem, commodi et provident omnis obcaecati, sapiente temporibus error.</h2>
                 </div>
             </div>
 
@@ -31,8 +39,8 @@ function About() {
                     <li>Node.js</li>
                     <li>Express.js</li>
                     <li>React.js</li>
-                    <li>MongoDB</li>
                     <li>Three.js</li>
+                    <li>MongoDB</li>
                     <li>GSAP</li>                  
                 </ul>
 
