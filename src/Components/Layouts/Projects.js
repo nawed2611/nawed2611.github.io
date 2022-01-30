@@ -10,7 +10,7 @@ function Projects() {
     return (
         <div className="projects">
             <div data-aos="fade-up" className="projDiv">
-                <h1>Projects and Internships I've done</h1>
+                <h1 data-aos="fade-up" data-aos-delay="200">Experiences & Projects</h1>
             </div>
         </div>
     );

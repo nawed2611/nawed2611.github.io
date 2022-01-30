@@ -16,6 +16,8 @@ body {
   border-right: 1px solid black;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  flex-shrink: 5; 
   padding: 1.5rem;
   width: 45%;
 }
@@ -166,4 +168,9 @@ h5 {
   height: 18rem;
   object-fit: contain;
   border-radius: 2rem;
+  transition: transform 1s ease-in-out;
+}
+
+.profDiv img:hover{
+  transform: scale(2);
 }
