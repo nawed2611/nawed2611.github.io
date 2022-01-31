@@ -5,6 +5,7 @@
   color: aliceblue;
   min-height: 100vh;
   padding: 2rem;
+  
 }
 
 .footerText {
@@ -52,7 +53,6 @@
 
 .socialLinks {
   display: flex;
-  justify-content: center;
   width: 22rem;
   padding: 1rem;
   background-color: #223f48;

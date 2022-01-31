@@ -1,17 +1,23 @@
 import React from 'react';
 import '../Styles/aboutStyle.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-
-AOS.init();
 
 function About() {
     return (
         <div className="about">
             <div data-aos="fade-up" className="aboutDiv">
+                <div data-aos="fade-up" data-aos-delay="200" className="aboutText">
+                    <h1 className="helloText">HELLO THERE!</h1>
+                        <div className="aboutList">
+                            <h2>My name is Nawed and I'm a MERN Stack Creative developer with keen interest in WEBGL animations.</h2>
 
-                <div data-aos="fade-up" data-aos-delay="400" className="aboutText">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, temporibus obcaecati in natus minus id vel eveniet, tempore quisquam, cupiditate similique.</h2>
+                            <h2>I'm a BTech Computer Science Engineering Student, Batch of 2024.</h2>
+
+                            <h2>I love building beautiful and creative websites through JavaScript technologies.</h2>
+
+                            <h2>I'm an open-source enthusiast with history of working with different open-source communitites.</h2>
+
+                            <h2>Recently I've been planning on getting started with Machine Learning.</h2>  
+                        </div>
                 </div>
         
             </div>

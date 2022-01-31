@@ -168,9 +168,5 @@ h5 {
   height: 18rem;
   object-fit: contain;
   border-radius: 2rem;
-  transition: transform 1s ease-in-out;
-}
-
-.profDiv img:hover{
-  transform: scale(2);
+  transform: scale(1.5);
 }

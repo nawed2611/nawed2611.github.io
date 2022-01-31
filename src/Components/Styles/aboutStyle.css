@@ -4,27 +4,40 @@
 }
 .aboutDiv{
     background-color: #7d88a8;
+    height: 200vh;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-    min-height: 100vh;
     border-radius: 2rem 1rem;
 }
 
 .helloText{
-    color: rgb(65 70 85);
+    color: rgb(62, 71, 73);
 }
 
 .aboutText{
     display: flex;
-    width: 50%;
     color: #dde6d2;
     flex-direction: column;
     padding: 1rem;
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     flex-wrap: wrap;
 }
+
+.aboutList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aboutList h2{
+    width: 30rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
 
 .langDiv {
     color: #474e55;
