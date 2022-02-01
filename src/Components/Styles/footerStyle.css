@@ -53,8 +53,7 @@
 
 .socialLinks {
   display: flex;
-  width: 22rem;
-  padding: 1rem;
+  width: 25rem;
   background-color: #223f48;
   border-radius: 1rem;
 }

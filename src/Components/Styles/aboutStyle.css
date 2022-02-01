@@ -4,15 +4,10 @@
 }
 .aboutDiv{
     background-color: #7d88a8;
-    height: 200vh;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;
     border-radius: 2rem 1rem;
-}
-
-.helloText{
-    color: rgb(62, 71, 73);
 }
 
 .aboutText{
@@ -21,21 +16,45 @@
     flex-direction: column;
     padding: 1rem;
     margin: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     flex-wrap: wrap;
+}
+
+.helloText{
+    color: rgb(62, 71, 73);
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 32px;
+    text-decoration: underline;
 }
 
 .aboutList{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 1rem;
 }
 
-.aboutList h2{
-    width: 30rem;
-    margin: 1rem;
+.aboutList p{
+    width: 32rem;
+   
+    line-height: 150%;
+}
+.aboutList div{
+    display: flex;
     padding: 1rem;
-    border: 1px solid black;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin: 1rem;
+}
+
+.aboutList img{
+    opacity: 0.8;
+    z-index: -1;
+    width: 35%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 1rem;
 }
 
 
@@ -49,7 +68,8 @@
 
 .langText {
     padding: 0.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-left: 1rem;
 }
 
 .langList {
@@ -57,10 +77,9 @@
     list-style-type: none;
     flex-wrap: wrap;
     font-weight: normal;
-    font-size: 4rem;
-    line-height: 75%;
+    font-size: 1.4rem;
     text-align: center;
-    letter-spacing: 0.02em;
     margin: 2rem;
+    width: 50%;
     color:#dde6d2;
 }
