@@ -1,8 +1,6 @@
 import React from 'react';
 import '../Styles/aboutStyle.css';
 
-import AboutImage from '../../Images/menitrust.png';
-
 function About() {
     return (
         <div className="about">
