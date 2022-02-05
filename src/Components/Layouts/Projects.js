@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+
 import '../Styles/projStyle.css';
 
 //Importing AOS Library
@@ -7,38 +8,28 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
-const baseURL = "https://jsonplaceholder.typicode.com/posts";
-const repoURL = "https://api.github.com/users/nawed2611/repos";
-
 function Projects() {
 
     // const [post, setPost] = React.useState(null);
-    // const [repo, setRepo] = React.useState(0);
+    const [repo, setRepo] = useState(0);
+    const [user, setUser] = useState(0);
 
-    // React.useEffect(() => {
-    //     axios.get(`${baseURL}/1`).then((res) => {
-    //         setPost(res.data);
-    //     });
-    // }, []);
+    useEffect(() => {
+        axios.get('https://api.github.com/users/nawed2611/repos').then((res) => {
 
-    // React.useEffect(() => {
-    //     axios.get({repoURL}).then((res) => {
-    //         setRepo(res.data);
-    //     });
-    // }, []);
+            setRepo(res.data);
+            console.log(repo);            
+        });
+     }, []);
 
-    // function createPost() {
-    //     axios
-    //     .post(baseURL, {
-    //         title: "Hello World!",
-    //         body: "This is a new post."
-    //     })
-    //     .then((response) => {
-    //         setPost(response.data);
-    //     });
-    // }
+    React.useEffect(() => {
+         axios.get("https://api.github.com/users/nawed2611").then((res) => {
 
-    // if (!post) return null;
+             setUser(res.data);
+             console.log(user);            
+         });
+      }, []);
+
     
     return (
         <div className="projects">
@@ -65,34 +56,22 @@ function Projects() {
                 </div>
             </div>
 
-            <div data-aos="fade-up" className="projDiv">
-                <h1 data-aos="fade-up" data-aos-delay="200">My Projects & Open-Source Contributions</h1>
-                <div className="projList">
-                    <div className="proj">
-                        <h3>Weather Web-App</h3>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
-                    </div>
-                    <div className="proj">
-                        <h3>Nawed Ali Portfolio</h3>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
-                    </div>
-                    <div className="proj">
-                        <h3>Pokedex</h3>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
-                    </div>
-                    <div className="proj">
-                        <h3>Pokedex</h3>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
-                    </div>
-                </div>
+            <div className="githubStats">
+                <h1>My Github Stats</h1>
+                <h2>Repositories</h2>
+                <h3>{repo.length}</h3>
             </div>
 
-            {/* <div>
-                <h1>{post.title}</h1>
-                <h4>{post.body}</h4>
-                <button onClick={createPost}>Create Post</button>
-                <h2>helo {repo}</h2>
-            </div> */}
+            <div data-aos="fade-up" className="projDiv">
+                <h1 data-aos="fade-up" data-aos-delay="200">My Projects & Open-Source Contributions</h1>
+                <div className="projList">  
+                    {repo.map((repo) => {
+                        return <div className="proj" data-aos="fade-up">
+                            <a href={repo.url} ><h3 key={repo.name}>{repo.name}</h3></a>                        
+                            <p key={repo.description}>{repo.description}</p></div>;
+                    })}
+                </div>
+            </div>
         </div>
     );
 }

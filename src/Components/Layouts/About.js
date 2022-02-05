@@ -29,6 +29,7 @@ function About() {
 
             </div>
 
+            <div className="skillsContainer">
             <div data-aos="fade-up" className="langDiv">
                 <h1 className="langText">Languages & Databases I'm fluent in</h1>
                 <ul className="langList">
@@ -60,7 +61,20 @@ function About() {
                     <li>Git</li>
                     <li>Anima</li>
                     <li>Microsoft Visual Studio Code</li>
+                    <li>Postman</li>
                 </ul>
+            </div>
+
+            <div>
+                <h1>Skills</h1>
+                <ul>
+                    <li>Web Application Development</li>
+                    <li>HTML CSS & JavaScript</li>
+                    <li>BackEnd Development</li>
+                    <li>UI/UX Designing</li>
+                </ul>
+            </div>
+
 
             </div>
 
