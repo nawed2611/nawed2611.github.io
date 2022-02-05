@@ -62,7 +62,7 @@ function Projects() {
                 <h3>{repo.length}</h3>
             </div>
 
-            <div data-aos="fade-up" className="projDiv">
+            {/* <div data-aos="fade-up" className="projDiv">
                 <h1 data-aos="fade-up" data-aos-delay="200">My Projects & Open-Source Contributions</h1>
                 <div className="projList">  
                     {repo.map((repo) => {
@@ -71,7 +71,7 @@ function Projects() {
                             <p key={repo.description}>{repo.description}</p></div>;
                     })}
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
