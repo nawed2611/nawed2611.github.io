@@ -25,19 +25,19 @@
     margin: 1rem;
     padding: 1rem;
     font-size: 32px;
-    /* text-decoration: underline; */
+    text-decoration: underline;
 }
 
 .aboutList{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 1rem;
     margin-left: 1rem;
 }
 
 .aboutList p{
-    width: 32rem;
-   
+    max-width: 45%;
     line-height: 150%;
 }
 .aboutList div{
@@ -58,12 +58,18 @@
 }
 
 
-.langDiv {
+.skillsContainer{
+    display: flex;
     color: #474e55;
     padding: 1rem;
     min-height: 100vh;
     background-color: #7d88a8;
     border-radius: 1rem 2rem;
+}
+
+.langDiv {
+    display: flex;
+    flex-direction: column;   
 }
 
 .langText {

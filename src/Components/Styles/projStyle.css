@@ -23,12 +23,29 @@
     flex-wrap: wrap;
 }
 
+.githubStats{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(41, 40, 40, 0.555);
+    color: rgb(189, 147, 199);
+}
+
 .proj{
     margin: 1rem;
     padding: 1rem;
     width: 40%;
     height: 45vh;
-    border: 2px solid rgb(94, 94, 92);
-    background-color: rgba(74, 59, 88, 0.856);
-    
+    border: 1px solid rgb(94, 94, 92);
+    background-color: rgba(80, 68, 61, 0.856);
+    border-radius: 0.5rem;
+}
+
+.proj a{
+    color: #e29c2b;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.proj a:hover{
+    color: rgb(207, 174, 118);
 }

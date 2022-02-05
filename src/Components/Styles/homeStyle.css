@@ -99,6 +99,7 @@ h5 {
 .profDiv {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   padding: 3rem;
   margin: 1rem;
   backdrop-filter: blur(3px);
