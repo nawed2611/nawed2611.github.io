@@ -4,6 +4,70 @@
     background-color: #223f48;
 }
 
+
+.githubStats{
+    display: flex;
+    min-width: 15rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(188, 171, 192);
+}
+
+.repoCount{
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 20%;
+}
+
+.repoContainer{
+    cursor: grab;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(102, 97, 97);
+    padding: 1rem;  
+    margin: 1rem;  
+    border-radius: 0.5rem;
+}
+
+.innerContainer{
+    display: flex;
+    margin: 2rem;
+}
+
+.item{
+    min-width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(94, 94, 92);
+    background-color: rgba(80, 68, 61, 0.856);
+    border-radius: 0.5rem;
+}
+
+.item a{
+    text-decoration: none;
+    color: #e29c2b;
+}
+
+.proj{
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 40%;
+    height: 45vh;
+    border: 1px solid rgb(94, 94, 92);
+    background-color: rgba(80, 68, 61, 0.856);
+    border-radius: 0.5rem;
+}
+
+.proj a{
+    color: #e29c2b;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.proj a:hover{
+    color: rgb(207, 174, 118);
+}
+
 .projDiv{
     background-color: #faedbc;
     display: flex;
@@ -21,31 +85,4 @@
     padding: 1rem;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.githubStats{
-    padding: 1rem;
-    margin-bottom: 1rem;
-    background-color: rgba(41, 40, 40, 0.555);
-    color: rgb(189, 147, 199);
-}
-
-.proj{
-    margin: 1rem;
-    padding: 1rem;
-    width: 40%;
-    height: 45vh;
-    border: 1px solid rgb(94, 94, 92);
-    background-color: rgba(80, 68, 61, 0.856);
-    border-radius: 0.5rem;
-}
-
-.proj a{
-    color: #e29c2b;
-    text-decoration: none;
-    margin: 1rem;
-}
-
-.proj a:hover{
-    color: rgb(207, 174, 118);
 }
