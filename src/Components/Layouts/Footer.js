@@ -59,10 +59,10 @@ function Footer() {
                 <p>COPYRIGHT © 2021 ALL RIGHTS RESERVED</p>
                 <p>CODED WITH ♡ BY NAWED ALI</p>
                 <div className="socialLinks">
-                    <a href="#" target="_blank">MY RESUME</a>
-                    <a href="https://www.instagram.com/nawed.alli/" target="_blank"><img src={Instagram} /></a>
-                    <a href="https://www.linkedin.com/in/nawedali/" target="_blank"><img src={LinkedIn} /></a>
-                    <a href="https://github.com/nawed2611" target="_blank"><img src={Github} /></a>
+                    <a href="#" target="_blank" rel="noreferrer">MY RESUME</a>
+                    <a href="https://www.instagram.com/nawed.alli/" target="_blank" rel="noreferrer"><img src={Instagram} alt="Instagram"/></a>
+                    <a href="https://www.linkedin.com/in/nawedali/" target="_blank" rel="noreferrer"><img src={LinkedIn} alt="LinkedIn"/></a>
+                    <a href="https://github.com/nawed2611" target="_blank" rel="noreferrer"><img src={Github} alt="GitHub"/></a>
                 </div>
             </div>
 

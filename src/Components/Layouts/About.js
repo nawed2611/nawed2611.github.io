@@ -48,7 +48,6 @@ function About() {
                     <li>Express.js</li>
                     <li>React.js</li>
                     <li>Three.js</li>
-                    <li>MongoDB</li>
                     <li>GSAP</li>
                     <li>AOS</li>
                 </ul>
