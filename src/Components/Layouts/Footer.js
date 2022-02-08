@@ -29,27 +29,30 @@ function Footer() {
         <div className="footer">
 
             <div className="footerText">
-                <h1>Let's Talk if you wanna collaborate on something</h1>
-                <h1>Developed by React and Powered by my career
+                <div className="formDiv">
+                    <h1>Let's Talk if you wanna collaborate on something</h1>
+                    <h1>Contact me here -</h1>
+                </div>
+                <div className="formDiv">
                     <form onSubmit={sendEmail}>
                         <label>
-                            Name
+                            <h4>Name</h4>
                             <input type="text" name="name" />
                         </label>
 
                         <label>
-                            Email ID
+                            <h4>Email ID</h4>
                             <input type="email" name="email" />
                         </label>
 
                         <label>
-                            Description
+                            <h4>Description</h4>
                             <input type="text" name="description" placeholder="Any Feedback helps:)" />
                         </label>
 
-                        <input type="submit" value="Send" />
+                        <input id="submit" type="submit" value="Send" />
                     </form>
-                </h1>
+                </div>
 
 
             </div>

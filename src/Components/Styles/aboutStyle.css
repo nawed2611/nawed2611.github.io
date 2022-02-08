@@ -67,6 +67,28 @@
     border-radius: 1rem 2rem;
 }
 
+.skillsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.skillsDiv h1{
+    margin: 1rem;
+}
+
+.skillsList{
+    margin: 1rem;
+    list-style: none;
+    color: #dde6d2;
+}
+
+.skillsList li{
+    padding: 1rem;
+    margin: 1rem;
+}
+
 .langDiv {
     display: flex;
     flex-direction: column;   
