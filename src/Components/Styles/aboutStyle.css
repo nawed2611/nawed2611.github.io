@@ -1,8 +1,9 @@
-.about{
+.about {
     padding: 2rem;
     background-color: #223f48;
 }
-.aboutDiv{
+
+.aboutDiv {
     background-color: #7d88a8;
     display: flex;
     flex-wrap: wrap;
@@ -10,17 +11,18 @@
     border-radius: 2rem 1rem;
 }
 
-.aboutText{
+.aboutText {
     display: flex;
     color: #dde6d2;
-    flex-direction: column;
+    height: 100%;
+    width: 60%;
     padding: 1rem;
     margin: 1rem;
     font-size: 1.5rem;
     flex-wrap: wrap;
 }
 
-.helloText{
+.helloText {
     color: rgb(62, 71, 73);
     margin: 1rem;
     padding: 1rem;
@@ -28,37 +30,30 @@
     text-decoration: underline;
 }
 
-.aboutList{
+.aboutList {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 1rem;
     margin-left: 1rem;
 }
 
-.aboutList p{
-    max-width: 45%;
+.aboutList p {
+    max-width: 80%;
     line-height: 150%;
 }
-.aboutList div{
+
+.aboutList div {
     display: flex;
-    padding: 1rem;
     justify-content: space-between;
     margin-left: 1rem;
     margin: 1rem;
 }
 
-.aboutList img{
-    opacity: 0.8;
-    z-index: -1;
+canvas{
     width: 35%;
-    object-fit: cover;
-    overflow: hidden;
-    border-radius: 1rem;
 }
 
-
-.skillsContainer{
+.skillsContainer {
     display: flex;
     color: #474e55;
     padding: 1rem;
@@ -67,31 +62,32 @@
     border-radius: 1rem 2rem;
 }
 
-.skillsDiv{
+.skillsDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 40%;
 }
 
-.skillsDiv h1{
+.skillsDiv h1 {
     margin: 1rem;
 }
 
-.skillsList{
+.skillsList {
     margin: 1rem;
     list-style: none;
     color: #dde6d2;
 }
 
-.skillsList li{
+.skillsList li {
     padding: 1rem;
     margin: 1rem;
 }
 
 .langDiv {
     display: flex;
-    flex-direction: column;   
+    padding: 0.5rem;
+    flex-direction: column;
 }
 
 .langText {
@@ -105,9 +101,13 @@
     list-style-type: none;
     flex-wrap: wrap;
     font-weight: normal;
-    font-size: 1.4rem;
+    
     text-align: center;
     margin: 2rem;
     width: 50%;
-    color:#dde6d2;
+    color: #dde6d2;
+}
+
+.skillsContainer li{
+    font-size: 1.4rem;
 }

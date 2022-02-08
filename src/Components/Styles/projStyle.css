@@ -51,7 +51,7 @@
 .proj{
     margin: 1rem;
     padding: 1rem;
-    min-width: 40%;
+    width: 40%;
     height: 45vh;
     border: 1px solid rgb(94, 94, 92);
     background-color: rgba(80, 68, 61, 0.856);
