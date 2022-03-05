@@ -62,7 +62,7 @@ function Footer() {
                 <p>COPYRIGHT © 2021 ALL RIGHTS RESERVED</p>
                 <p>CODED WITH ♡ BY NAWED ALI</p>
                 <div className="socialLinks">
-                    <a href="#" target="_blank" rel="noreferrer">MY RESUME</a>
+                    <a href="https://drive.google.com/file/d/1Pg3Zl_NQ6mCPhb2uyH_LtzlRBivWvytZ/view?usp=sharing" target="_blank" rel="noreferrer">MY RESUME</a>
                     <a href="https://www.instagram.com/nawed.alli/" target="_blank" rel="noreferrer"><img src={Instagram} alt="Instagram"/></a>
                     <a href="https://www.linkedin.com/in/nawedali/" target="_blank" rel="noreferrer"><img src={LinkedIn} alt="LinkedIn"/></a>
                     <a href="https://github.com/nawed2611" target="_blank" rel="noreferrer"><img src={Github} alt="GitHub"/></a>
