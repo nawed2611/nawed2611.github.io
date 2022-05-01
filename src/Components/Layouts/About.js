@@ -34,19 +34,19 @@ function About() {
                     <h1 className="helloText">Hello There!</h1>
                     <div className="aboutList">
                         <div>
-                            <p>My name is Nawed and I'm a MERN Stack Creative developer with keen interest in WEBGL animations. I'm a BTech Computer Science Engineering Student, Batch of 2024.</p>
+                            <p>My name is Nawed and I'm a Full-Stack Creative developer with keen interest in WEBGL animations. I'm a BTech Computer Science Engineering Student, Batch of 2024.</p>
                         </div>
 
                         <div>
                             <p>
                                 I love building beautiful and creative websites through JavaScript technologies.
                                 I'm an open-source enthusiast with history of working with different open-source communitites.
-                                Recently I've been planning on getting started with Machine Learning.</p>
+                                Recently I've been exploring the Web3.0 Space.</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                     <Canvas colorManagement camera={{ position: [-5, 2, 10], fov: 50 }} >
+                     <Canvas colorManagement camera={{ position: [-5, 2, 8], fov: 50 }} >
                         <Box />
                     </Canvas>
                 </div>
@@ -55,48 +55,59 @@ function About() {
 
             <div className="skillsContainer">
                 <div data-aos="fade-up" className="langDiv">
-                    <h1 className="langText">Languages & Databases I'm fluent in</h1>
+                    <h1 className="langText">Languages I'm fluent in</h1>
                     <ul className="langList">
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
+                        <li>C,</li>
+                        <li>C++,</li>
+                        <li>HTML,</li>
+                        <li>CSS,</li>
+                        <li>JavaScript,</li>
+                        <li>TypeScript,</li>
+                        <li>PHP,</li>
                         <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>MongoDB</li>
                     </ul>
 
-                    <h1 className="langText">Libraries & Frameworks I've worked with</h1>
+                    <h1 className="langText">Front End Development</h1>
                     <ul className="langList">
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                        <li>React.js</li>
-                        <li>Three.js</li>
-                        <li>GSAP</li>
+                        <li>React.js,</li>
+                        <li>Redux, </li>
+                        <li>SASS and CSS Frameworks, </li>
+                        <li>Three.js,</li>
+                        <li>GSAP,</li>
                         <li>AOS</li>
+                    </ul>
+
+                    <h1 className="langText">Back End Development</h1>
+                    <ul className="langList">
+                        <li>Node.js,</li>
+                        <li>Express.js,</li>
+                        <li>MongoDB,</li>
+                        <li>SQL,</li>
+                        <li>APIs,</li>
+                        <li>Hedera,</li>
+                        <li>Firebase</li>
                     </ul>
 
                     <h1 className="langText">Tools I know</h1>
                     <ul className="langList">
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Premiere Pro</li>
-                        <li>Figma</li>
-                        <li>Git</li>
-                        <li>Anima</li>
-                        <li>Microsoft Visual Studio Code</li>
+                        <li>Google Cloud Platform,</li>
+                        <li>Adobe Suite,</li>
+                        <li>Twilio,</li>
+                        <li>Socket.io,</li>
+                        <li>NPM,</li>
+                        <li>Microsoft Visual Studio Code,</li>
                         <li>Postman</li>
                     </ul>
                 </div>
 
-                <div className="skillsDiv">
+                <div data-aos="fade-up" className="skillsDiv">
                     <h1>Skills</h1>
                     <ul className="skillsList">
-                        <li>Web Application Development-70%</li>
-                        <li>HTML CSS & JavaScript-90%</li>
-                        <li>WebGL Animations (Three.js, GSAP, Framer)-70%</li>
-                        <li>Back-End Development-50%</li>
-                        <li>UI/UX Designing-50%</li>
+                        <li>Web Application Development - 70%</li>
+                        <li>HTML CSS & JavaScript - 90%</li>
+                        <li>Back-End Development - 80%</li>
+                        <li>WebGL Animations (Three.js, GSAP, Framer) - 70%</li>
+                        <li>UI/UX Designing - 50%</li>
                     </ul>
                 </div>
 
