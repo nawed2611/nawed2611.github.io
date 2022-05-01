@@ -19,13 +19,14 @@ function Projects() {
 
             if (res.status === 200 && res != null) {
                 setRepo(res.data);
+                console.log(repo);
 
             }
             else {
-                console.log("Problem Occured");
+                console.error("Problem Occured");
             }
         }).catch(error => {
-            console.log(error);
+            console.error(error);
         });
     }, []);
 
@@ -34,6 +35,7 @@ function Projects() {
 
             if (res.status === 200 && res != null) {
                 setUser(res.data);
+
 
             }
             else {
@@ -62,13 +64,13 @@ function Projects() {
                         <h3>Maharaja Agrasen Institute of Technology - GGSIPU</h3>
                     </div>
                     <div className="proj" data-aos="fade-up" data-aos-delay="300">
-                        <h2>Content Writer</h2>
+                        <h2>Content Writer and Mentor</h2>
                         <h3>GirlScript Summer of Code'22</h3>
-                        
+
                     </div>
                     <div className="proj" data-aos="fade-up" data-aos-delay="350">
                         <h2>Open-source Developer</h2>
-                        <h3>Script Winter of Code 2.0 </h3>                       
+                        <h3>Script Winter of Code 2.0 </h3>
                     </div>
                     <div className="proj" data-aos="fade-up" data-aos-delay="400">
                         <h2>Content Developer</h2>
@@ -85,7 +87,7 @@ function Projects() {
                 </div>
 
                 <motion.div ref={repoContainer} whileTap={{ cursor: "grabbing" }} className="repoContainer">
-                    <motion.div drag="x" dragConstraints={{ right: 0, left: -5930 }} className="innerContainer">
+                    <motion.div drag="x" dragConstraints={{ right: 0, left: -8030 }} className="innerContainer">
                         {Array.isArray(repo) && repo.map((repo) => {
                             return <motion.div className="item " data-aos="fade-up">
                                 <a href={repo.html_url} ><h3 key={repo.name}>{repo.name}</h3></a>
@@ -99,28 +101,28 @@ function Projects() {
                 <h1 data-aos="fade-up" data-aos-delay="200">My Projects & Open-Source Contributions</h1>
                 <div className="projList">
                     <div className="proj" data-aos="fade-up" data-aos-delay="400">
-                        <h2>Nawed Ali - Portfolio</h2>
-                        <p>Personal portfolio website developed through React.JS.</p>
+                        <h2>Bill Saver</h2>
+                        <p>Bill Saver is an app, built with React and powered by Twilio and Hedera’s Test Nest Interface, that allows you to organize your bills and stores it on the blockchain</p>
                     </div>
                     <div className="proj" data-aos="fade-up" data-aos-delay="400">
-                        <h2>Weather Web App</h2>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+                        <h2>News Centre</h2>
+                        <p>News App built with React and News API using Axios</p>
                     </div>
                     <div className="proj" data-aos="fade-up" data-aos-delay="400">
-                        <h2>Design and Code</h2>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+                        <h2>Heartly Heaven</h2>
+                        <p>Heartly Heaven is a chat application with a built-in date maker feature and games</p>
+                    </div>
+                    <div className="proj" data-aos="fade-up" data-aos-delay="400">
+                        <h2>Real Time Chat App</h2>
+                        <p>A Chat Application built using Node.js and Socket.io</p>
+                    </div>
+                    <div className="proj" data-aos="fade-up" data-aos-delay="400">
+                        <h2>Helping Hand</h2>
+                        <p>Helping Hand is a Flask Web App that allows Restaurants to add their leftover dishes for the day</p>
                     </div>
                     <div className="proj" data-aos="fade-up" data-aos-delay="400">
                         <h2>Hackstation</h2>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
-                    </div>
-                    <div className="proj" data-aos="fade-up" data-aos-delay="400">
-                        <h2>Todo List Web App</h2>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
-                    </div>
-                    <div className="proj" data-aos="fade-up" data-aos-delay="400">
-                        <h2>Pokedex</h2>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+                        <p>It is a web-app that help you track your coding status, showing it in form of dashboard. It also provides reminders to users for various competitive coding contests</p>
                     </div>
                 </div>
             </div>
