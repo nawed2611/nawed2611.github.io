@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/homeStyle.css';
-import Nawed from '../../Images/nawed2.png';
+import Nawed from '../../Images/profile.jpg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -24,7 +24,7 @@ function Home() {
             </div>
 
             <div className="profDiv">
-                    <img src={Nawed} />
+                    <img src={Nawed} alt="Nawed" />
             </div>
            
         </div>
